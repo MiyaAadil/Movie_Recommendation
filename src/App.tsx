@@ -49,7 +49,8 @@ const App = () => {
 
   return (
     <div className="p-8 max-w-6xl mx-auto">
-      <h1 className="text-4xl font-bold text-center mb-6">Movie Mood</h1>
+      <h1 className="text-4xl font-bold text-center mb-2">Movie Mood</h1>
+      <h2 className="text-2xl text-center mb-5">Search any types of movies/TV shows according to your mood</h2>
 
       <div className="flex gap-2 mb-6">
         <input

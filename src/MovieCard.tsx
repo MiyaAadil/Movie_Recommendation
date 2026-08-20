@@ -1,4 +1,5 @@
 import type { MovieDetail } from "./types";
+import { Star } from 'lucide-react';
 
 interface MovieCardProps {
   movie: MovieDetail;
@@ -21,8 +22,12 @@ const MovieCard = ({ movie }: MovieCardProps) => {
       )}
       <div className="p-3">
         <h2 className="font-bold text-lg">{movie.title}</h2>
-        <p className="text-sm text-gray-500">
-          {movie.year > 0 ? movie.year : "Year unknown"} · ⭐ {movie.rating.toFixed(1)}
+        <p className="text-sm text-gray-800 flex flex-col">
+          {movie.year > 0 ? movie.year : "Year unknown"}
+          <div className="flex gap-2 mt-2">
+            <Star className="text-yellow-400 fill-yellow-400" size={20} />
+          {movie.rating.toFixed(1)}
+          </div>
         </p>
         <p className="text-sm mt-2 line-clamp-3">{movie.synopsis}</p>
       </div>
