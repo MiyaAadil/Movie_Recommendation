@@ -48,9 +48,9 @@ const App = () => {
   };
 
   return (
-    <div className="p-8 max-w-6xl mx-auto">
+    <div className="p-8 max-w-6xl mx-auto text-white">
       <h1 className="text-4xl font-bold text-center mb-2">Movie Mood</h1>
-      <h2 className="text-2xl text-center mb-5">Search any types of movies/TV shows according to your mood</h2>
+      <h2 className="text-2xl text-center mb-5">Search any type of movie or TV show according to your mood</h2>
 
       <div className="flex gap-2 mb-6">
         <input
@@ -77,7 +77,7 @@ const App = () => {
         <p className="text-center text-gray-500">No matches found — try a different mood.</p>
       )}
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
         {movies.map((movie) => (
           <MovieCard key={movie.title} movie={movie} />
         ))}
