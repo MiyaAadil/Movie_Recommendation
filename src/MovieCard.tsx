@@ -17,7 +17,7 @@ const MovieCard = ({ movie }: MovieCardProps) => {
             className="w-full h-full object-cover hover:scale-104 transition-all duration-400"
           />
         ) : (
-          <div className="w-full h-50 bg-gray-200 flex items-center justify-center text-gray-500">
+          <div className="w-full h-full bg-gray-200 flex items-center justify-center text-gray-500">
             No poster available
           </div>
         )}
