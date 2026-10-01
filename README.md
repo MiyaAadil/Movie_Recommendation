@@ -53,7 +53,7 @@ Real movie data rendered as cards
 ## Running locally
 
 ```bash
-git clone [https://github.com/MiyaAadil/Movie_Recommendation]
+git clone https://github.com/MiyaAadil/Movie_Recommendation
 cd movie-recs
 npm install
 ```
