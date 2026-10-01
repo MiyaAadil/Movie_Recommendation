@@ -1,4 +1,8 @@
 # Movie Mood
+<img width="1517" height="821" alt="image" src="https://github.com/user-attachments/assets/8528d91c-e4ce-4407-9554-02b8a9912d9f" />
+<img width="507" height="632" alt="image" src="https://github.com/user-attachments/assets/668f2b95-11b4-4e7a-a209-e017350a24cd" />
+
+
 
 An AI-powered movie/TV recommendation app that takes a free-text mood or craving — "something like Inception but shorter," "feel-good comfort show for a rainy day" — and returns real, accurate recommendations with posters, ratings, and synopses.
 
